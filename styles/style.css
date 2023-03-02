@@ -14,6 +14,10 @@ a {
     border-radius: 5px;
 }
 
+p {
+    margin: 20px 0;
+    color: gray;
+}
 /* Navbar Section Start  */
 nav {
     display: flex;
@@ -43,12 +47,44 @@ ul > li {
     font-weight: bold;
     font-size: 3rem;
 }
-#hero_section p {
+/* #hero_section p {
     margin: 20px 0;
     color: gray;
-}
+} */
 #hero_section img {
     width: 100%;
     margin-top: 50px;
 }
 /* Hero Section End */
+
+/* Quick Feature Section Start  */
+#quick_feature {
+    margin: 100px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+}
+.quick_feature_images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    /* width: 100%; */
+}
+.quick_list {
+    color: gray;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.of_our {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.features {
+    color: #ff900e;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+/* Quick Feature Section End  */
