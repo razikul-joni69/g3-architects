@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #ff900e;
+    padding: 15px 12px;
+    border-radius: 5px;
+}
+
+/* Navbar Section Start  */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: 0 100px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+ul > li {
+    padding: 15px 20px;
+    cursor: pointer;
+}
+/* Navbar Section End */
+
+/* Hero Section Start  */
+#hero_section {
+    margin: 0 100px;
+    text-align: center;
+}
+#hero_section h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+#hero_section p {
+    margin: 20px 0;
+    color: gray;
+}
+#hero_section img {
+    width: 100%;
+    margin-top: 50px;
+}
+/* Hero Section End */
