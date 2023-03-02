@@ -184,3 +184,36 @@ ul > li {
     justify-content: space-between;
 }
 /* Sponspors Section End  */
+
+/* Contact Section Start  */
+#contact_us {
+    margin: 100px 300px;
+}
+#contact_us h2 {
+    text-align: center;
+}
+input,
+textarea {
+    height: 50px;
+    width: 100%;
+    margin: 15px;
+    font-size: 20px;
+    border: 1px solid #ff900e;
+    border-radius: 5px;
+}
+textarea {
+    height: 100px;
+}
+input[type="submit"] {
+    background-color: #ff900e;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+/* Contact Section End  */
+
+/* Footer Section Start  */
+footer {
+    text-align: center;
+}
+/* Footer Section End  */
