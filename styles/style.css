@@ -50,10 +50,7 @@ ul > li {
     font-weight: bold;
     font-size: 3rem;
 }
-/* #hero_section p {
-    margin: 20px 0;
-    color: gray;
-} */
+
 #hero_section img {
     width: 100%;
     margin-top: 50px;
@@ -217,3 +214,95 @@ footer {
     text-align: center;
 }
 /* Footer Section End  */
+
+/* Responsive Media Quary Section Start  */
+@media screen and (max-width: 576px) {
+    nav {
+        display: inline;
+    }
+    ul {
+        display: block;
+    }
+    #hero_section {
+        margin: 0;
+        text-align: center;
+    }
+    #hero_section h1 {
+        font-size: 2.5rem;
+    }
+    #quick_feature {
+        margin: 100px 0;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .quick_feature_images {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .quick_feature_images > img {
+        width: 100vw;
+    }
+
+    #more_features {
+        margin: 100px 0;
+    }
+    .all_features {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .feature_button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .experience_button_div {
+        margin-top: -60px;
+    }
+    #our_achievment {
+        margin: 100px 0;
+    }
+
+    .card {
+        margin: 0 60px;
+    }
+    .achievments {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    #sponspor {
+        margin: 100px 0;
+    }
+    .sponspor_company {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .sponspor_company > img {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    #contact_us {
+        margin: 100px 0;
+    }
+
+    input,
+    textarea {
+        height: 50px;
+        width: 92%;
+        margin: 15px;
+        font-size: 20px;
+        border: 1px solid #ff900e;
+        border-radius: 5px;
+    }
+    textarea {
+        height: 100px;
+    }
+}
+/* Responsive Media Quary Section End  */
